@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Price Gauntlet 2.0 / ХПГ 2.0</title>
+    <style>
+        html {
+            background: #bbbbbb url('images/hpg2.jpg') no-repeat top center/100%;
+        }
+        body {
+            display: grid;
+            grid-template-areas:
+                "a a a"
+                "b b b"
+                "c c c"
+                "d d d"
+                "e e e"
+                "f f f"
+                "f f f"
+                "f f f"
+                "f f f"
+                "f f f"
+                "f f f"
+                "f f f"
+                "f f f"
+                "f f f"
+                "f f f"
+                "x x x"
+            ;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(25, 1fr);
+            font-family: calibri, serif;
+        }
+        nav {
+            grid-area: x;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        nav a {
+            padding: 5px 10px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            font-size: 20px;
+            box-shadow: 1px 1px 0 #bbb;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: rgba(240, 240, 240, 1);
+        }
+        div {
+            grid-area: c;
+
+            display: flex;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQB4FLABa3vAEY0FHqagjpqIWkbBGIFt04eylDKrc0-wiooVBHoJ284sw__bj4qnQeimTkSTFh-D9Cx/pubhtml?widget=true&headers=false" target="_blank">Карта, Правила, статусы участников</a>
+        <a href="wheel/">Колесо</a>
+        <a href="hpg-inventory/">Инвентарь ППГ</a>
+    </nav>
+</body>
+</html>
