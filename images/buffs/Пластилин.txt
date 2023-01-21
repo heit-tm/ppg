@@ -1,4 +1,0 @@
-<h2>Пластилин</h2>
-<span class="predmet">Предмет.</span> <span class="buf">Бафф.</span> <span class="stack">Количество зарядов: 1</span></span>
-<p>Сам себе сделай предмет
-</p>
