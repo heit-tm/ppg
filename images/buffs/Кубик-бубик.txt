@@ -1,0 +1,3 @@
+<h2>Кубик-бубик</h2>
+<span class="predmet">Предмет.</span> <span class="buf">Бафф.</span> <span class="stack">Количество зарядов: 1</span></span>
+<p>Следующий кубик вместо д6, кидается д8</p>
