@@ -3,154 +3,337 @@
 let cells = [];
 const items = [
     {
-        img: 'images/000.png',
+        img: 'inventory/000.png',
         title: 'Пустая ячейка'
     },
     {
-        img: 'images/051.png',
-        title: 'Щit',
+        img: 'inventory/001.png',
+        title: 'Кубик-бубик',
+        count: 1,
+    },
+    {
+        img: 'inventory/002.png',
+        title: 'Кубик-уёбик',
+    },
+    {
+        img: 'inventory/003.png',
+        title: 'Улыбка Гигачада',
+    },
+    {
+        img: 'inventory/004.png',
+        title: 'Пластилин',
+    },
+    {
+        img: 'inventory/005.png',
+        title: 'Читерский кубик',
+    },
+    {
+        img: 'inventory/006.png',
+        title: 'Кубик хуюбика',
+    },
+    {
+        img: 'inventory/007.png',
+        title: 'Очки EZ',
+    },
+    {
+        img: 'inventory/008.png',
+        title: 'Повязка Рэмбо',
+    },
+    {
+        img: 'inventory/009.png',
+        title: 'Свиток реролла',
+    },
+    {
+        img: 'inventory/010.png',
+        title: 'Шар всезнания',
+    },
+    {
+        img: 'inventory/011.png',
+        title: 'Корона короля пресетов',
+    },
+    {
+        img: 'inventory/012.png',
+        title: 'Взрывчатка',
         count: 2,
     },
     {
-        img: 'images/052.png',
-        title: 'Комбинезон химзащиты'
+        img: 'inventory/013.png',
+        title: 'Ремонтный набор',
     },
     {
-        img: 'images/053.png',
-        title: 'Рулон туалетной бумаги',
-        count: 2,
+        img: 'inventory/014.png',
+        title: 'Красочная манга',
     },
     {
-        img: 'images/054.png',
-        title: 'Респиратор',
-        count: 10,
+        img: 'inventory/015.png',
+        title: 'Облизанный ободок унитаза',
     },
     {
-        img: 'images/055.png',
-        title: 'Одноразовые перчатки'
+        img: 'inventory/016.png',
+        title: 'Реверсивные сапоги',
     },
     {
-        img: 'images/056.png',
-        title: 'Банка шпината'
+        img: 'inventory/017.png',
+        title: 'Потерянный дред Латте',
     },
     {
-        img: 'images/057.png',
+        img: 'inventory/018.png',
         title: 'Крышка от мусорного бака',
     },
     {
-        img: 'images/058.png',
-        title: 'Ремонтный набор',
-        count: 2,
+        img: 'inventory/019.png',
+        title: 'Кукла вуду',
     },
     {
-        img: 'images/059.png',
-        title: 'Антисептик'
+        img: 'inventory/020.png',
+        title: 'Хани принтер',
     },
     {
-        img: 'images/060.png',
-        title: 'Рука для фистинга имени Билли Херрингтона',
-        count: 4,
+        img: 'inventory/062.png',
+        title: 'ВзрывОчка',
+        isNotSlot: true,
     },
     {
-        img: 'images/061.png',
-        title: 'Сексуальные чулки',
-        count: 2,
+        img: 'inventory/063.png',
+        title: 'Сраное колдунье',
+        isNotSlot: true,
     },
     {
-        img: 'images/062.png',
-        title: 'Четырехлистный клевер'
+        img: 'inventory/064.png',
+        title: 'Ультрамошна',
+        isNotSlot: true,
+    },    
+    {
+        img: 'inventory/000.png',
+        title: 'Пустая ячейка'
     },
     {
-        img: 'images/063.png',
-        title: 'Кукла вуду'
+        img: 'inventory/000.png',
+        title: 'Пустая ячейка'
     },
     {
-        img: 'images/064.png',
-        title: 'Набор выживальщика',
-        count: 3,
+        img: 'inventory/000.png',
+        title: 'Пустая ячейка'
     },
     {
-        img: 'images/065.png',
-        title: 'Наперсток удачи'
+        img: 'inventory/000.png',
+        title: 'Пустая ячейка'
     },
     {
-        img: 'images/066.png',
-        title: 'Переносной телепорт'
+        img: 'inventory/000.png',
+        title: 'Пустая ячейка'
     },
     {
-        img: 'images/067.png',
-        title: 'Футляр'
+        img: 'inventory/000.png',
+        title: 'Пустая ячейка'
     },
     {
-        img: 'images/068.png',
-        title: 'Жилетка Вассермана',
-        count: 2,
+        img: 'inventory/021.png',
+        title: 'Говно-аукцион',
+        isNotSlot: true,
     },
     {
-        img: 'images/069.png',
-        title: 'Стул мамы Мерфи',
-        count: 2,
+        img: 'inventory/022.png',
+        title: 'У вас есть 1 минута',
+        isNotSlot: true,
     },
     {
-        img: 'images/070.png',
-        title: 'Шиш кебаб',
-        count: 7,
+        img: 'inventory/023.png',
+        title: 'Пора кричать',
+        isNotSlot: true,
     },
     {
-        img: 'images/071.png',
-        title: 'Альпинистский трос'
+        img: 'inventory/024.png',
+        title: 'А может я решу',
+        isNotSlot: true,
     },
     {
-        img: 'images/072.png',
-        title: 'Хакерский компьютер'
+        img: 'inventory/025.png',
+        title: 'SHIZA',
+        isNotSlot: true,
     },
     {
-        img: 'images/073.png',
-        title: 'Корона короля петучей',
-        count: 3,
-    },
-    {
-        img: 'images/074.png',
-        title: 'Благословение Хакса',
-        count: 3,
+        img: 'inventory/026.png',
+        title: 'Минутка спорта',
         isNotSlot: true
     },
     {
-        img: 'images/075.png',
-        title: 'Порошок прозрения',
-        count: 2
+        img: 'inventory/027.png',
+        title: 'Стример стул',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/028.png',
+        title: 'Жесткая заруба',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/029.png',
+        title: 'Ремонтный набор',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/030.png',
+        title: 'ВоКАЛлист',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/031.png',
+        title: 'Телепорт',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/032.png',
+        title: 'Пиздец-ебать',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/033.png',
+        title: 'Ахуеть-жесть',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/034.png',
+        title: 'Землетрясение',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/035.png',
+        title: 'Я ТУТ СТРИМАК',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/036.png',
+        title: 'Мощный бросок',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/037.png',
+        title: 'Слабый бросок',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/038.png',
+        title: 'Сорокалетний девственник',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/039.png',
+        title: 'Руки-крюки',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/040.png',
+        title: 'Интрига',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/041.png',
+        title: 'Два по цене одного',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/042.png',
+        title: 'По магазинам с чатом',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/043.png',
+        title: 'Однорукий бандит',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/044.png',
+        title: 'Грязнулькин',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/045.png',
+        title: 'Рокировочка',
+        isNotSlot: true
+    },
+    {
+        img: 'inventory/046.png',
+        title: 'Все херня, давай по новой',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/047.png',
+        title: 'Погреб Багика',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/048.png',
+        title: 'Заначка Старыги',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/049.png',
+        title: 'Воля случая',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/050.png',
+        title: 'Обмен',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/051.png',
+        title: 'Случай на Геймгаунтлете',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/052.png',
+        title: 'Благотворительность',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/053.png',
+        title: 'Стример не тупой',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/054.png',
+        title: 'Извини что трахнул',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/055.png',
+        title: 'Помощь отстающему',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/056.png',
+        title: 'Удачный неудачник',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/057.png',
+        title: 'Аптечка',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/058.png',
+        title: 'Второй шанс',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/059.png',
+        title: 'А где это я',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/060.png',
+        title: 'Ой, извините',
+        isNotSlot: true,
+    },
+    {
+        img: 'inventory/061.png',
+        title: 'Сужающееся колесо Фландерса',
+        isNotSlot: true,
     },
 
-    {
-        img: 'images/01.png',
-        title: 'Силовая броня (Корона короля петучей, Щit, Одноразовые перчатки)',
-        count: 2,
-        isNotSlot: true
-    },
-    {
-        img: 'images/02.png',
-        title: 'Костюм мудреца (Порошок прозрения, хакерский компьютер, Жилетка Вассермана)',
-        count: 3,
-        isNotSlot: true
-    },
-    {
-        img: 'images/03.png',
-        title: 'Костюм "Элегантный рекетир" (Наперсток удачи, сексуальные чулки, Рука для фистинга имени Билли Херрингтона)',
-        count: 3,
-        isNotSlot: true
-    },
-    {
-        img: 'images/04.png',
-        title: 'Костюм "Исследователь Пустошей" (Набор выживальщика, Комбинезон химзащиты, Крышка от мусорного бака)',
-        count: 3,
-        isNotSlot: true
-    },
-    {
-        img: 'images/05.png',
-        title: 'Рейдерские лохмотья (Шиш-Кебаб, Кукла вуду, Альпинистский трос)',
-        count: 2,
-        isNotSlot: true
-    },
+
 ];
 let selectedCellKey = false;
 

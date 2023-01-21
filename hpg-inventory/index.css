@@ -54,7 +54,6 @@ body {
 	filter: drop-shadow(3px 3px 0 #50a04e);
 }
 .cell img.inverted {
-	transform: scaleY(-1);
 	filter: drop-shadow(3px -3px 0 #900a);
 }
 .cell .count {
