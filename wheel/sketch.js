@@ -336,8 +336,10 @@ function wheelSketch(_p5) {
             _p5.scale(scaleFactor);
 
             _p5.fill(255, Math.round(_p5.map(x + 50, centerX, centerX + radius, 0, 255, true)));
-
-            let key = data_key(data.length, i);
+            let key = 0;
+            try {
+                key = data_key(data.length, i);
+            } catch {}
             // stroke(255, 102, 110);
             // line(0, -textAscent()/2, width, -textAscent()/2);
             if (y < _p5.textAscent() / 2

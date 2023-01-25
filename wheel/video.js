@@ -44,6 +44,8 @@ class Video {
     }
 
     changeVideo(forceIndex) {
+        this._urls = this._urls.filter((item, index) => item !== undefined);
+
         if (Number.isInteger(forceIndex)) {
             this._current_index = forceIndex;
         }

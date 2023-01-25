@@ -2,6 +2,27 @@
  * Copyright (c) 2020. shtrih
  */
 
+const history = localStorage.getItem('history') ? JSON.parse(localStorage.getItem('history')) : [];
+
+function addHistory (txt) {
+    const date = new Date();
+    history.push(`${date.toLocaleDateString()} ${date.toLocaleTimeString()}: ${txt}`);
+    localStorage.setItem('history', JSON.stringify(history));
+}
+
+function showLastHistory(num = 50) {
+    num = num > history.length ? history.length : num;
+    for (let i = history.length - 1; i > history.length - 1 - num; i--) {
+        console.log(history[history.length - i - 1]);
+    }
+}
+
+window.addEventListener('onbeforeunloaded', () => {
+    addHistory('Закрытие колеса');
+})
+
+addHistory('Запуск или обновление колеса');
+
 const helpPopup = document.querySelector('.help-popup');
 function closeHelpPopup() {
     helpPopup.style.display = 'none';
@@ -139,8 +160,17 @@ const dataSets = {
         'Слабый бросок',
     ]
 };
+
 let currentDataSet = 'inventory',
     editedDataSets = {};
+
+
+// Загрузка данных из localStorage
+editedDataSets.inventory = JSON.parse(localStorage.getItem('dataSet_inventory'));
+editedDataSets.effects = JSON.parse(localStorage.getItem('dataSet_effects'));
+editedDataSets.coin = JSON.parse(localStorage.getItem('dataSet_coin'));
+editedDataSets.streamers = JSON.parse(localStorage.getItem('dataSet_streamers'));
+editedDataSets.debuffs = JSON.parse(localStorage.getItem('dataSet_debuffs'));
 
 const editDialog = document.getElementById('dialog-edit'),
     editButton = document.getElementById('btn-edit'),
@@ -149,6 +179,7 @@ const editDialog = document.getElementById('dialog-edit'),
     editPresets = editDialog.getElementsByClassName('presets')[0],
     optionClick = function (option, checked) {
         editedDataSets[currentDataSet][option] = checked;
+        addHistory(`Изменение настроек: ${option} ${checked ? 'включен' : 'выключен'} в пресете ${currentDataSet}`);
     },
     generateOptions = function (dataObject) {
         let options = '';
@@ -160,6 +191,7 @@ const editDialog = document.getElementById('dialog-edit'),
     },
     resetEditedDataSet = function () {
         editedDataSets[currentDataSet] = Object.fromEntries(dataSets[currentDataSet].map(v => v).sort().map(v => [v, true]));
+        addHistory(`Сброс настроек в пресете ${currentDataSet}`);
     },
     editedDataToArray = function () {
         let result = [];
@@ -194,6 +226,7 @@ editConfirmButton.addEventListener('click', function () {
     p5Instance.mouseDragEnable();
 
     p5Instance.setData(editedDataToArray());
+    localStorage[`dataSet_${currentDataSet}`] = JSON.stringify(editedDataSets[currentDataSet]);
 });
 
 class Preset {
@@ -258,9 +291,9 @@ class PresetWithoutSpecialRolls extends Preset {
 class Presets {
     constructor() {
         this._presets = {
-            // inventory: [
-            //     new PresetAll(),
-            // ],
+             inventory: [
+                new PresetAll(),
+            ],
             effects: [
                 new PresetAll(),
                 new PresetWithoutSpecialRolls(true),
@@ -461,11 +494,10 @@ p5Instance.onAfterSetup = function () {
 };
 
 p5Instance.onEnd = (data, selectedKey) => {
-    // Вот тут будет код который будет выполняться после окончания вращения
+    addHistory(`Выпало ${data[selectedKey]} из пресета ${currentDataSet}`);
 }
 
 p5Instance.onHelpClick = (data, selectedKey) => {
-    // Вот тут будет код который будет выполняться после окончания вращения
     const txt = getDescriptionURI(dataSets[currentDataSet].indexOf(data[selectedKey]))
     fetch(txt).then(response => {
         if (response.ok) {
@@ -525,11 +557,9 @@ for(let i = 0; i < radios.length; i++) {
             }
 
             p5Instance.setData(editedDataToArray());
-            editButton.removeAttribute('disabled');
         }
         else {
             p5Instance.setData(dataSets[currentDataSet]);
-            editButton.setAttribute('disabled', 'disabled');
         }
     });
 
