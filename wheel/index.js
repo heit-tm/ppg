@@ -162,13 +162,28 @@ const dataSets = {
 let currentDataSet = 'inventory',
     editedDataSets = {};
 
+// Удаленные элементы, которые нужно отфильтровывать из сохранений
+const deletedElements = [
+    "Извини что трахнул",
+];
+
+function loadFromLocalStorage(preset) {
+    const data = JSON.parse(localStorage.getItem('dataSet_' + preset));
+    if (data) {
+        deletedElements.forEach(item => {
+            delete data[item];
+        });
+    }
+
+    return data;
+}
 
 // Загрузка данных из localStorage
-editedDataSets.inventory = JSON.parse(localStorage.getItem('dataSet_inventory'));
-editedDataSets.effects = JSON.parse(localStorage.getItem('dataSet_effects'));
-editedDataSets.coin = JSON.parse(localStorage.getItem('dataSet_coin'));
-editedDataSets.streamers = JSON.parse(localStorage.getItem('dataSet_streamers'));
-editedDataSets.debuffs = JSON.parse(localStorage.getItem('dataSet_debuffs'));
+editedDataSets.inventory = loadFromLocalStorage('inventory');
+editedDataSets.effects = loadFromLocalStorage('effects');
+editedDataSets.coin = loadFromLocalStorage('coin');
+editedDataSets.streamers = loadFromLocalStorage('streamers');
+editedDataSets.debuffs = loadFromLocalStorage('debuffs');
 
 const editDialog = document.getElementById('dialog-edit'),
     editButton = document.getElementById('btn-edit'),
