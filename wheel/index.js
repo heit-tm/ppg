@@ -36,6 +36,7 @@ const dataSets = {
     inventory: [
         '+250 бб',
         'SHIZA',
+        'SHIZA',
         'А где это я',
         'А может я решу',
         'Аптечка',
