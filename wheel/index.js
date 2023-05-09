@@ -140,9 +140,13 @@ const dataSets = {
         'Heit_tm',
         'HoneyRinder',
         'Chillout_latte',
+        'Dobryylisenok',
         'Gamelxrd',
         'Toopenya',
         'Red_pondaa',
+        'Bagick',
+        '9Bezdar',
+        'Gwisdom',
     ],
     debuffs: [
         'Благотворительность',
