@@ -34,7 +34,7 @@ function openHelpPopup() {
 
 const dataSets = {
     inventory: [
-        'BANNED',
+        
         'А где это я',
         'Аптечка',
         'Бездонный карман',
