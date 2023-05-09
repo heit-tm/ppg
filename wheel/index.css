@@ -38,6 +38,15 @@ a:hover {
 #video {
 	position: absolute;
 	left: 40%;
+	-webkit-mask-image:url(mask.png);
+    -webkit-mask-position:center center;
+    -webkit-mask-repeat:no-repeat;
+    -webkit-mask-size:cover;
+  
+    mask-image:url(mask.png);
+    mask-position:center center;
+    mask-repeat:no-repeat;
+    mask-size:cover;
 }
 #video video {
 	height: 450px;
