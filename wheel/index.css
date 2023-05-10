@@ -99,15 +99,15 @@ button, .btn {
 
 	color: #eee;
 	background-color: #161511;
-	border: 1px solid #686964;
+	border: 1px solid #686868;
 }
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
 	cursor: pointer;
 }
 button:hover {
 	color: #fff;
-	background-color: #161511;
-	border-color: #686964;
+	background-color: #212121;
+	border-color: #686868;
 }
 button:not(:disabled):not(.disabled):active {
 	color: #fff;
@@ -117,15 +117,15 @@ button:not(:disabled):not(.disabled):active {
 button:focus {
 	outline: 0;
 	color: #fff;
-	background-color: #0069d9;
-	border-color: #0062cc;
-	box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5);
+	background-color: #252525;
+	border-color: #686868;
+	/*box-shadow: 0 0 0 0.2rem hsla(0, 0%, 41%, 0.5);*/
 }
 button:disabled {
 	opacity: .6;
 	color: #fff;
-	background-color: #007bff;
-	border-color: #007bff;
+	background-color: #252525;
+	border-color: #686868;
 	cursor: not-allowed;
 }
 .image-grid {
@@ -231,10 +231,10 @@ button:disabled {
 	top: 50%;
 	margin: -25%;
 	min-width: 250px;
-	background-color: #272167;
+	background-color: #161511;
 	padding: 10px;
 	border-radius: .25rem;
-	border: 2px solid #332a7e;
+	border: 2px solid #686868;
 	text-align: center;
 	display: none;
 
@@ -242,7 +242,7 @@ button:disabled {
 	outline: 9999px solid rgba(0,0,0,0.5);
 }
 .dialog textarea {
-	background-color: #151235;
+	background-color: #161511;
 	color: #eee;
 }
 .dialog .options {
@@ -317,8 +317,8 @@ button:disabled {
 	height: fit-content;
     max-height: 800px;
     max-width: 600px;
-	background: #0e0b25;
-	border: #2d2957 8px solid;
+	background: #161511;
+	border: #686868 1px solid;
 	border-radius: 8px;
 }
 
