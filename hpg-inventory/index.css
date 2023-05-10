@@ -32,8 +32,10 @@ body {
 	float: left;
 	width: var(--cell-width);
 	height: var(--cell-width);
-	background-color: #ddd;
-	border: 4px ridge #d0733d;
+	/*background-color: rgba(19, 19, 19, 0.8);
+	border: 3px ridge #686868;*/
+	background-image: url(sell_bg.PNG);
+	background-size: 100%;
 	margin-left: -0px;
 	box-sizing: border-box;
 	cursor: pointer;
