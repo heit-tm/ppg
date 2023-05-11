@@ -529,9 +529,9 @@ p5Instance.onAfterSetup = function () {
         'videos/за деньги да.mp4',
         'videos/подлая.webm',
         'videos/06.webm',
-        'videos/08.webm',
         'videos/09.webm',
         'videos/10.webm',
+        // МЭЛ'videos/08.webm',
     ]);
 };
 
