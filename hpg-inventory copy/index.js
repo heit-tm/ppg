@@ -7,167 +7,129 @@ const items = [
         title: 'Пустая ячейка'
     },
     {
-        img: 'inventory/Пластилин.png',
+        img: '../images/prikol/Пластилин.png',
         title: 'Пластилин',
     },
     {
-        img: 'inventory/062.png',
+        img: '../images/prikol/ВзрывОчка.png',
         title: 'ВзрывОчка',
     },
     {
-        img: 'inventory/063.png',
+        img: '../images/prikol/Сраное колдунье.png',
         title: 'Сраное колдунье',
     },
     {
-        img: 'inventory/064.png',
+        img: '../images/prikol/Ультрамошна.png',
         title: 'Ультрамошна',
     },  
     {
-        img: 'inventory/Обмен.png',
+        img: '../images/prikol/Обмен.png',
         title: 'Обмен',
     }, 
     {
-        img: 'inventory/Дроп Дропыч.png',
+        img: '../images/prikol/Дроп Дропыч.png',
         title: 'Дроп Дропыч',
     }, 
     {
-        img: 'inventory/Облезлая крыса.png',
+        img: '../images/prikol/Облезлая крыса.png',
         title: 'Облезлая крыса',
     }, 
     {
-        img: 'inventory/Робин Гуд.png',
+        img: '../images/prikol/Робин Гуд.png',
         title: 'Робин Гуд',
     },   
     {
-        img: 'inventory/Хакер.png',
+        img: '../images/prikol/Хакер.png',
         title: 'Хакер',
     },   
+
+
     {
-        img: 'inventory/У вас есть 1 минута.png',
+        img: '../images/prikol/У вас есть 1 минута.png',
         title: 'У вас есть 1 минута',
     },
     {
-        img: 'inventory/Жесткая заруба.png',
+        img: '../images/prikol/Жесткая заруба.png',
         title: 'Жесткая заруба',
     },
     {
-        img: 'inventory/Телепорт.png',
-        title: 'Телепорт',
-    },
-    {
-        img: 'inventory/Мощный бросок.png',
+        img: '../images/prikol/Мощный бросок.png',
         title: 'Мощный бросок',
     },
     {
-        img: 'inventory/Слабый бросок.png',
+        img: '../images/prikol/Слабый бросок.png',
         title: 'Слабый бросок',
     },
     {
-        img: 'inventory/Сорокалетний девственник.png',
+        img: '../images/prikol/Сорокалетний девственник.png',
         title: 'Сорокалетний девственник',
     },
     {
-        img: 'inventory/Руки-крюки.png',
+        img: '../images/prikol/Руки-крюки.png',
         title: 'Руки-крюки',
     },
     {
-        img: 'inventory/Интрига.png',
-        title: 'Интрига',
-    },
-    {
-        img: 'inventory/ва по цене одного.png',
-        title: 'Два по цене одного',
-    },
-    {
-        img: 'inventory/По магазинам с чатом.png',
-        title: 'По магазинам с чатом',
-    },
-    {
-        img: 'inventory/Однорукий бандит.png',
-        title: 'Однорукий бандит',
-    },
-    {
-        img: 'inventory/Грязнулькин.png',
-        title: 'Грязнулькин',
-    },
-    {
-        img: 'inventory/Рокировочка.png',
-        title: 'Рокировочка',
-    },
-    {
-        img: 'inventory/Все херня, давай по новой.png',
-        title: 'Все херня, давай по новой',
-    },
-    {
-        img: 'inventory/Погреб Багика.png',
-        title: 'Погреб Багика',
-    },
-    {
-        img: 'inventory/Заначка Старыги.png',
-        title: 'Заначка Старыги',
-    },
-    {
-        img: 'inventory/Воля случая.png',
+        img: '../images/prikol/Воля случая.png',
         title: 'Воля случая',
     },
     {
-        img: 'inventory/Случай на Геймгаунтлете.png',
+        img: '../images/prikol/Сужающееся колесо Фландерса.png',
+        title: 'Сужающееся колесо Фландерса',
+    },
+    {
+        img: '../images/prikol/Случай на Геймгаунтлете.png',
         title: 'Случай на Геймгаунтлете',
     },
     {
-        img: 'inventory/Благотворительность.png',
-        title: 'Благотворительность',
-    },
-    {
-        img: 'inventory/Стример не тупой.png',
+        img: '../images/prikol/Стример не тупой.png',
         title: 'Стример не тупой',
     },
     {
-        img: 'inventory/Помощь отстающему.png',
+        img: '../images/prikol/Помощь отстающему.png',
         title: 'Помощь отстающему',
     },
     {
-        img: 'inventory/Удачный неудачник.png',
+        img: '../images/prikol/Удачный неудачник.png',
         title: 'Удачный неудачник',
     },
     {
-        img: 'inventory/Аптечка.png',
+        img: '../images/prikol/Аптечка.png',
         title: 'Аптечка',
     },
     {
-        img: 'inventory/Второй шанс.png',
+        img: '../images/prikol/Второй шанс.png',
         title: 'Второй шанс',
     },
     {
-        img: 'inventory/А где это я.png',
-        title: 'А где это я',
+        img: '../images/prikol/Неизвестная фласка.png',
+        title: 'Неизвестная фласка',
     },
     {
-        img: 'inventory/Аптечка.png',
-        title: 'Аптечка',
+        img: '../images/prikol/Моя остановочка.png',
+        title: 'Моя остановочка',
     },
     {
-        img: 'inventory/Аптечка.png',
-        title: 'Аптечка',
+        img: '../images/prikol/Дуэль.png',
+        title: 'Дуэль',
     },
     {
-        img: 'inventory/Аптечка.png',
-        title: 'Аптечка',
+        img: '../images/prikol/Че умный, да.png',
+        title: 'Че умный, да',
     },
     {
-        img: 'inventory/Аптечка.png',
-        title: 'Аптечка',
+        img: '../images/prikol/Ебанный рот этого казино.png',
+        title: 'Ебанный рот этого казино',
     },
     {
-        img: 'inventory/Аптечка.png',
-        title: 'Аптечка',
+        img: '../images/prikol/Не добежал.png',
+        title: 'Не добежал',
     },
     {
-        img: 'inventory/Аптечка.png',
-        title: 'Аптечка',
+        img: '../images/prikol/Мастер Предикта.png',
+        title: 'Мастер Предикта',
     },
     // {
-    //     img: 'inventory/060.png',
+    //     img: '../images/prikol/060.png',
     //     title: 'Ой, извините',
     //     isNotSlot: true,
     // },

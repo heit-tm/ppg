@@ -7,121 +7,121 @@ const items = [
         title: 'Пустая ячейка'
     },
     {
-        img: 'inventory/Пластилин.png',
+        img: '../images/prikol/Пластилин.png',
         title: 'Пластилин',
     },
     {
-        img: 'inventory/Читерский кубик.png',
+        img: '../images/prikol/Читерский кубик.png',
         title: 'Читерский кубик',
     },
     {
-        img: 'inventory/Кубик хуюбика.png',
+        img: '../images/prikol/Кубик хуюбика.png',
         title: 'Кубик хуюбика',
     },
     {
-        img: 'inventory/Очки EZ.png',
+        img: '../images/prikol/Очки EZ.png',
         title: 'Очки EZ',
         count: 2,
     },
     {
-        img: 'inventory/Повязка Рэмбо.png',
+        img: '../images/prikol/Повязка Рэмбо.png',
         title: 'Повязка Рэмбо',
         count: 2,
     },
     {
-        img: 'inventory/Шар всезнания.png',
+        img: '../images/prikol/Шар всезнания.png',
         title: 'Шар всезнания',
     },
     {
-        img: 'inventory/Корона короля Рандома.png',
+        img: '../images/prikol/Корона короля Рандома.png',
         title: 'Корона короля Рандома',
     },
     {
-        img: 'inventory/Взрывчатка.png',
+        img: '../images/prikol/Взрывчатка.png',
         title: 'Взрывчатка',
         count: 2,
     },
     {
-        img: 'inventory/Ремонтный набор.png',
+        img: '../images/prikol/Ремонтный набор.png',
         title: 'Ремонтный набор',
     },
     {
-        img: 'inventory/Красочная манга.png',
+        img: '../images/prikol/Красочная манга.png',
         title: 'Красочная манга',
     },
     {
-        img: 'inventory/Реверсивные сапоги.png',
+        img: '../images/prikol/Реверсивные сапоги.png',
         title: 'Реверсивные сапоги',
     },
     {
-        img: 'inventory/Хидден гем.png',
+        img: '../images/prikol/Хидден гем.png',
         title: 'Хидден гем',
     },
     {
-        img: 'inventory/Щит.png',
+        img: '../images/prikol/Щит.png',
         title: 'Щит',
     },
     {
-        img: 'inventory/Кукла вуду.png',
+        img: '../images/prikol/Кукла вуду.png',
         title: 'Кукла вуду',
     },
     {
-        img: 'inventory/Хани принтер.png',
-        title: 'Хани принтер',
+        img: '../images/prikol/ХаниПринтер.png',
+        title: 'ХаниПринтер',
     },
     {
-        img: 'inventory/Наперсток.png',
+        img: '../images/prikol/Наперсток.png',
         title: 'Наперсток',
         count: 3,
     },
     {
-        img: 'inventory/Дротик с ядом.png',
+        img: '../images/prikol/Дротик с ядом.png',
         title: 'Дротик с ядом',
     },
     {
-        img: 'inventory/Трос.png',
+        img: '../images/prikol/Трос.png',
         title: 'Трос',
     },
     {
-        img: 'inventory/Противоядие.png',
+        img: '../images/prikol/Противоядие.png',
         title: 'Противоядие',
     },
     {
-        img: 'inventory/Наглый чаттерс.png',
+        img: '../images/prikol/Наглый чаттерс.png',
         title: 'Наглый чаттерс',
     },
     {
-        img: 'inventory/Неебические часы.png',
+        img: '../images/prikol/Неебические часы.png',
         title: 'Неебические часы',
     },
     {
-        img: 'inventory/Рука Мидаса.png',
+        img: '../images/prikol/Рука Мидаса.png',
         title: 'Рука Мидаса',
     },
     {
-        img: 'inventory/Ржавый капкан.png',
+        img: '../images/prikol/Ржавый капкан.png',
         title: 'Ржавый капкан',
     },
     {
-        img: 'inventory/Горячая картошка.png',
+        img: '../images/prikol/Горячая картошка.png',
         title: 'Горячая картошка',
         count: 3,
     },
     {
-        img: 'inventory/Портянки-невидимки.png',
+        img: '../images/prikol/Портянки-невидимки.png',
         title: 'Портянки-невидимки',
         count: 2,
     },
     {
-        img: 'inventory/Странные ягоды.png',
+        img: '../images/prikol/Странные ягоды.png',
         title: 'Странные ягоды',
     },
     {
-        img: 'inventory/Яша.png',
+        img: '../images/prikol/Яша.png',
         title: 'Яша',
     },
     {
-        img: 'inventory/Лава.png',
+        img: '../images/prikol/Лава.png',
         title: 'Лава',
     },
 
