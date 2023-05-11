@@ -7,332 +7,170 @@ const items = [
         title: 'Пустая ячейка'
     },
     {
-        img: 'inventory/001.png',
-        title: 'Кубик-бубик',
-        count: 1,
-    },
-    {
-        img: 'inventory/002.png',
-        title: 'Кубик-уёбик',
-    },
-    {
-        img: 'inventory/003.png',
-        title: 'Улыбка Гигачада',
-    },
-    {
-        img: 'inventory/004.png',
+        img: 'inventory/Пластилин.png',
         title: 'Пластилин',
-    },
-    {
-        img: 'inventory/005.png',
-        title: 'Читерский кубик',
-    },
-    {
-        img: 'inventory/006.png',
-        title: 'Кубик хуюбика',
-    },
-    {
-        img: 'inventory/007.png',
-        title: 'Очки EZ',
-    },
-    {
-        img: 'inventory/008.png',
-        title: 'Повязка Рэмбо',
-    },
-    {
-        img: 'inventory/009.png',
-        title: 'Свиток реролла',
-    },
-    {
-        img: 'inventory/010.png',
-        title: 'Шар всезнания',
-    },
-    {
-        img: 'inventory/011.png',
-        title: 'Корона короля пресетов',
-    },
-    {
-        img: 'inventory/012.png',
-        title: 'Взрывчатка',
-        count: 2,
-    },
-    {
-        img: 'inventory/013.png',
-        title: 'Ремонтный набор',
-    },
-    {
-        img: 'inventory/014.png',
-        title: 'Красочная манга',
-    },
-    {
-        img: 'inventory/015.png',
-        title: 'Облизанный ободок унитаза',
-    },
-    {
-        img: 'inventory/016.png',
-        title: 'Реверсивные сапоги',
-    },
-    {
-        img: 'inventory/017.png',
-        title: 'Потерянный дред Латте',
-    },
-    {
-        img: 'inventory/018.png',
-        title: 'Крышка от мусорного бака',
-    },
-    {
-        img: 'inventory/019.png',
-        title: 'Кукла вуду',
-    },
-    {
-        img: 'inventory/020.png',
-        title: 'Хани принтер',
     },
     {
         img: 'inventory/062.png',
         title: 'ВзрывОчка',
-        isNotSlot: true,
     },
     {
         img: 'inventory/063.png',
         title: 'Сраное колдунье',
-        isNotSlot: true,
     },
     {
         img: 'inventory/064.png',
         title: 'Ультрамошна',
-        isNotSlot: true,
-    },    
+    },  
     {
-        img: 'inventory/000.png',
-        title: 'Пустая ячейка'
-    },
-    {
-        img: 'inventory/000.png',
-        title: 'Пустая ячейка'
-    },
-    {
-        img: 'inventory/000.png',
-        title: 'Пустая ячейка'
-    },
-    {
-        img: 'inventory/000.png',
-        title: 'Пустая ячейка'
-    },
-    {
-        img: 'inventory/000.png',
-        title: 'Пустая ячейка'
-    },
-    {
-        img: 'inventory/000.png',
-        title: 'Пустая ячейка'
-    },
-    {
-        img: 'inventory/021.png',
-        title: 'Говно-аукцион',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/022.png',
-        title: 'У вас есть 1 минута',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/023.png',
-        title: 'Пора кричать',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/024.png',
-        title: 'А может я решу',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/025.png',
-        title: 'SHIZA',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/026.png',
-        title: 'Минутка спорта',
-        isNotSlot: true
-    },
-    {
-        img: 'inventory/027.png',
-        title: 'Стример стул',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/028.png',
-        title: 'Жесткая заруба',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/029.png',
-        title: 'Ремонтный набор',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/030.png',
-        title: 'ВоКАЛлист',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/031.png',
-        title: 'Телепорт',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/032.png',
-        title: 'Пиздец-ебать',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/033.png',
-        title: 'Ахуеть-жесть',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/034.png',
-        title: 'Землетрясение',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/035.png',
-        title: 'Я ТУТ СТРИМАК',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/036.png',
-        title: 'Мощный бросок',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/037.png',
-        title: 'Слабый бросок',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/038.png',
-        title: 'Сорокалетний девственник',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/039.png',
-        title: 'Руки-крюки',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/040.png',
-        title: 'Интрига',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/041.png',
-        title: 'Два по цене одного',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/042.png',
-        title: 'По магазинам с чатом',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/043.png',
-        title: 'Однорукий бандит',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/044.png',
-        title: 'Грязнулькин',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/045.png',
-        title: 'Рокировочка',
-        isNotSlot: true
-    },
-    {
-        img: 'inventory/046.png',
-        title: 'Все херня, давай по новой',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/047.png',
-        title: 'Погреб Багика',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/048.png',
-        title: 'Заначка Старыги',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/049.png',
-        title: 'Воля случая',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/050.png',
+        img: 'inventory/Обмен.png',
         title: 'Обмен',
-        isNotSlot: true,
+    }, 
+    {
+        img: 'inventory/Дроп Дропыч.png',
+        title: 'Дроп Дропыч',
+    }, 
+    {
+        img: 'inventory/Облезлая крыса.png',
+        title: 'Облезлая крыса',
+    }, 
+    {
+        img: 'inventory/Робин Гуд.png',
+        title: 'Робин Гуд',
+    },   
+    {
+        img: 'inventory/Хакер.png',
+        title: 'Хакер',
+    },   
+    {
+        img: 'inventory/У вас есть 1 минута.png',
+        title: 'У вас есть 1 минута',
     },
     {
-        img: 'inventory/051.png',
+        img: 'inventory/Жесткая заруба.png',
+        title: 'Жесткая заруба',
+    },
+    {
+        img: 'inventory/Телепорт.png',
+        title: 'Телепорт',
+    },
+    {
+        img: 'inventory/Мощный бросок.png',
+        title: 'Мощный бросок',
+    },
+    {
+        img: 'inventory/Слабый бросок.png',
+        title: 'Слабый бросок',
+    },
+    {
+        img: 'inventory/Сорокалетний девственник.png',
+        title: 'Сорокалетний девственник',
+    },
+    {
+        img: 'inventory/Руки-крюки.png',
+        title: 'Руки-крюки',
+    },
+    {
+        img: 'inventory/Интрига.png',
+        title: 'Интрига',
+    },
+    {
+        img: 'inventory/ва по цене одного.png',
+        title: 'Два по цене одного',
+    },
+    {
+        img: 'inventory/По магазинам с чатом.png',
+        title: 'По магазинам с чатом',
+    },
+    {
+        img: 'inventory/Однорукий бандит.png',
+        title: 'Однорукий бандит',
+    },
+    {
+        img: 'inventory/Грязнулькин.png',
+        title: 'Грязнулькин',
+    },
+    {
+        img: 'inventory/Рокировочка.png',
+        title: 'Рокировочка',
+    },
+    {
+        img: 'inventory/Все херня, давай по новой.png',
+        title: 'Все херня, давай по новой',
+    },
+    {
+        img: 'inventory/Погреб Багика.png',
+        title: 'Погреб Багика',
+    },
+    {
+        img: 'inventory/Заначка Старыги.png',
+        title: 'Заначка Старыги',
+    },
+    {
+        img: 'inventory/Воля случая.png',
+        title: 'Воля случая',
+    },
+    {
+        img: 'inventory/Случай на Геймгаунтлете.png',
         title: 'Случай на Геймгаунтлете',
-        isNotSlot: true,
     },
     {
-        img: 'inventory/052.png',
+        img: 'inventory/Благотворительность.png',
         title: 'Благотворительность',
-        isNotSlot: true,
     },
     {
-        img: 'inventory/053.png',
+        img: 'inventory/Стример не тупой.png',
         title: 'Стример не тупой',
-        isNotSlot: true,
     },
     {
-        img: 'inventory/054.png',
-        title: 'Извини что трахнул',
-        isNotSlot: true,
-    },
-    {
-        img: 'inventory/055.png',
+        img: 'inventory/Помощь отстающему.png',
         title: 'Помощь отстающему',
-        isNotSlot: true,
     },
     {
-        img: 'inventory/056.png',
+        img: 'inventory/Удачный неудачник.png',
         title: 'Удачный неудачник',
-        isNotSlot: true,
     },
     {
-        img: 'inventory/057.png',
+        img: 'inventory/Аптечка.png',
         title: 'Аптечка',
-        isNotSlot: true,
     },
     {
-        img: 'inventory/058.png',
+        img: 'inventory/Второй шанс.png',
         title: 'Второй шанс',
-        isNotSlot: true,
     },
     {
-        img: 'inventory/059.png',
+        img: 'inventory/А где это я.png',
         title: 'А где это я',
-        isNotSlot: true,
     },
     {
-        img: 'inventory/060.png',
-        title: 'Ой, извините',
-        isNotSlot: true,
+        img: 'inventory/Аптечка.png',
+        title: 'Аптечка',
     },
     {
-        img: 'inventory/061.png',
-        title: 'Сужающееся колесо Фландерса',
-        isNotSlot: true,
+        img: 'inventory/Аптечка.png',
+        title: 'Аптечка',
     },
-
+    {
+        img: 'inventory/Аптечка.png',
+        title: 'Аптечка',
+    },
+    {
+        img: 'inventory/Аптечка.png',
+        title: 'Аптечка',
+    },
+    {
+        img: 'inventory/Аптечка.png',
+        title: 'Аптечка',
+    },
+    {
+        img: 'inventory/Аптечка.png',
+        title: 'Аптечка',
+    },
+    // {
+    //     img: 'inventory/060.png',
+    //     title: 'Ой, извините',
+    //     isNotSlot: true,
+    // },
 
 ];
 let selectedCellKey = false;
