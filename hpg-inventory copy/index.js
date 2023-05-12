@@ -7,10 +7,6 @@ const items = [
         title: 'Пустая ячейка'
     },
     {
-        img: '../images/prikol/Пластилин.png',
-        title: 'Пластилин',
-    },
-    {
         img: '../images/prikol/ВзрывОчка.png',
         title: 'ВзрывОчка',
     },

@@ -26,6 +26,7 @@ const items = [
     {
         img: '../images/prikol/Повязка Рэмбо.png',
         title: 'Повязка Рэмбо',
+        inversion: true,
         count: 2,
     },
     {
