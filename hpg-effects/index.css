@@ -5,7 +5,7 @@
 }
 body {
 	background: transparent;
-	padding: 20px 0;
+	padding: 15px 0;
 	font-family: Calibri, serif;
 	max-width: var(--max-width);
 	margin: 0 auto;
@@ -35,7 +35,7 @@ body {
 	max-width: 100%;
 	user-select: none;
 	/* Чтобы первая ячейка не обрезалась с краю в OBS */
-	margin-left: calc(var(--cell-margin-left) * -1);
+	/* margin-left: calc(var(--cell-margin-left) * -1); */
 }
 /* .cell {
 	margin-left: var(--cell-margin-left);
