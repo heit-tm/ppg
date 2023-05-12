@@ -53,6 +53,7 @@ const items = [
     {
         img: '../images/prikol/Реверсивные сапоги.png',
         title: 'Реверсивные сапоги',
+        invert: true,
     },
     {
         img: '../images/prikol/Хидден гем.png',

@@ -37,17 +37,42 @@ body {
 	/* Чтобы первая ячейка не обрезалась с краю в OBS */
 	margin-left: calc(var(--cell-margin-left) * -1);
 }
-.cell {
+/* .cell {
 	margin-left: var(--cell-margin-left);
 	position: relative;
 	float: left;
 	width: var(--cell-width);
 	height: var(--cell-width);
+	width: 4.5rem;
+	height: 5.5rem;
 	background-color: rgba(54, 54, 54, 0.74);
+	border-radius: 4px;
 	border: 4px ridge #d0733d;
 	box-sizing: border-box;
 	border-radius: 50%;
 	cursor: pointer;
+} */
+.cell{
+	position: relative;
+	float: left;
+	width: 4.5rem;
+	height: 5.5rem;
+	/* padding-right: 50px; */
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 4px;
+	/* border: 3px ridge #686868; */
+	/* background-image: url(sell_bg.PNG); */
+	/* background-size: 100%; */
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+	/* var(--cell-width) */
+	/* width: var(--cell-width); */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .cell.active {
 	background-color: #dee;
@@ -160,7 +185,7 @@ body:hover .add-cell {
 	background-color: rgba(54, 54, 54, 0.74);
 }
 .DEBUFF .cell {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(54, 54, 54, 0.74);
 	border-color: #a70000;
 }
 .TARGET_TRAP .cell {
