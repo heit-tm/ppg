@@ -537,6 +537,7 @@ p5Instance.onAfterSetup = function () {
         'videos/Rom and Death.webm',
         'videos/Running in the 90.webm',
         'videos/Sonic Frontiers.webm',
+        'videos/Sonic Frontiers.webm',
         // МЭЛ'videos/08.webm',
     ]);
 };
