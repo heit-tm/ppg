@@ -34,8 +34,8 @@ const items = [
         title: 'Шар всезнания',
     },
     {
-        img: '../images/prikol/Корона короля Рандома.png',
-        title: 'Корона короля Рандома',
+        img: '../images/prikol/Корона Короля Рандома.png',
+        title: 'Корона Короля Рандома',
     },
     {
         img: '../images/prikol/Взрывчатка.png',
@@ -56,8 +56,8 @@ const items = [
         invert: true,
     },
     {
-        img: '../images/prikol/Хидден гем.png',
-        title: 'Хидден гем',
+        img: '../images/prikol/Хидден Гем.png',
+        title: 'Хидден Гем',
     },
     {
         img: '../images/prikol/Щит.png',
