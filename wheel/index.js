@@ -529,7 +529,7 @@ p5Instance.onAfterSetup = function () {
         'videos/Йома Хашимото Тренируется.webm',
         'videos/за деньги да.mp4',
         'videos/подлая.webm',
-        'videos/06.webm',
+        // ПАРОЛЬ'videos/06.webm',
         'videos/09.webm',
         'videos/10.webm',
         'videos/cat breakdancing.webm',
