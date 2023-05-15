@@ -563,6 +563,7 @@ p5Instance.onAfterSetup = function () {
         'videos/Babydoll X The Perfect Girl.webm',
         'videos/the champ.webm',
         'videos/elevator.webm',
+        'videos/Kiryu 1_VP9.webm',
     ]);
 };
 
