@@ -548,7 +548,7 @@ p5Instance.onAfterSetup = function () {
         'videos/lady.webm',
         'videos/Maxwell Cat.webm',
         'videos/Minecraft Drop Edit 1.webm',
-        'videos/Minecraft Drop Edit 2.webm',
+        // 'videos/Minecraft Drop Edit 2.webm',
         'videos/miss the mom.webm',
         'videos/nacho.webm',
         'videos/Persona 4.webm',
